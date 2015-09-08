@@ -155,16 +155,6 @@ blockquote {
   bottom: 10px;
 }
 
-.footer a {
-  color: #A0B1BD;
-  bottom: 10px;
-}
-
-.footer a:link, a:visited {
-  color: #A0B1BD;
-  text-decoration: none;
-}
-
 .footer_rights {
   position: relative;
   width: 100%;
