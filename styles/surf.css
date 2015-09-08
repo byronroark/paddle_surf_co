@@ -42,6 +42,7 @@ p {
 .top_nav a {
   font-size: 18px;
   font-weight: bold;
+  color: #083451;
   vertical-align: bottom;
 }
 
@@ -86,13 +87,26 @@ p {
   font-size: 16px;
 }
 
-.blog {
+header {
+  text-decoration: none;
+}
+
+#blog {
   position: relative;
   width: 660px;
 }
 
-.blog h1 {
+#blog h1 {
   font-size: 5em;
+}
+
+#blog a {
+  color: #2085d7;
+}
+
+#blog a:hover {
+  text-decoration: none;
+  background-color: yellow;
 }
 
 blockquote {
@@ -124,17 +138,4 @@ blockquote {
   height: 60px;
   background-color: #083451;
   color: #e4e4e4;
-}
-
-a {
-  color: #2085d7;
-}
-
-a:link, a:visited {
-  text-decoration: underline;
-  color: #106DB3;
-}
-
-main {
-  padding: 5px;
 }
