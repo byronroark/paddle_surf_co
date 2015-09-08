@@ -1,0 +1,94 @@
+body {
+  padding: 0;
+  margin: 0;
+  font-family: 'Oswald', sans-serif;
+}
+
+div {
+  display: block;
+}
+
+.jumbotron {
+  background-image: url('../images/header.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 5px;
+  height: 520px;
+}
+
+.brand h4 {
+  color: #1c2c4b;
+  vertical-align: middle;
+}
+
+.logo {
+  position: relative;
+  margin-top: 0;
+}
+
+.top_nav {
+  position: relative;
+  margin-top: 3px;
+}
+
+.search {
+  vertical-align: text-top;
+}
+
+.heading {
+  color: #fff;
+  margin-top: 110px;
+  height: 100%;
+}
+
+.heading h1 {
+  font-size: 7em;
+}
+
+.heading h5 {
+  color: #1c2c4b;
+  font-weight: lighter;
+}
+
+.blog {
+  position: relative;
+  background-color: red;
+}
+
+.sidebar {
+  position: relative;
+  background-color: yellow;
+}
+
+.footer {
+  position: relative;
+  background-color: green;
+  background-size: cover;
+}
+
+a {
+  font-size: 18px;
+  font-weight: bold;
+  vertical-align: bottom;
+}
+
+a:link, a:visited {
+  text-decoration: none;
+  color: #1c2c4b;
+  font-weight: lighter;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #131313;
+}
+
+a:active {
+  text-decoration: none;
+  color: #c7c7c7;
+}
+
+main {
+  padding: 5px;
+}
