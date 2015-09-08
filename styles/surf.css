@@ -152,6 +152,17 @@ blockquote {
   font-weight: lighter;
   color: #A0B1BD;
   font-family: 'Oswald', sans-serif;
+  bottom: 10px;
+}
+
+.footer a {
+  color: #A0B1BD;
+  bottom: 10px;
+}
+
+.footer a:link, a:visited {
+  color: #A0B1BD;
+  text-decoration: none;
 }
 
 .footer_rights {
@@ -169,4 +180,10 @@ blockquote {
 
 .top_buffer {
   margin-top: 30px;
+}
+
+.vcenter {
+    display: inline-block;
+    vertical-align: middle;
+    float: none;
 }
