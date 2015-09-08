@@ -8,6 +8,11 @@ div {
   display: block;
 }
 
+p {
+  font-weight: lighter;
+  font-family: 'Merriweather', serif;
+}
+
 .jumbotron {
   background-image: url('../images/header.jpg');
   background-size: cover;
@@ -18,18 +23,23 @@ div {
 }
 
 .brand h4 {
-  color: #1c2c4b;
+  color: #083451;
   vertical-align: middle;
 }
 
 .logo {
   position: relative;
   margin-top: 0;
+  color: #083451;
 }
 
 .top_nav {
   position: relative;
   margin-top: 3px;
+}
+
+.top_nav img {
+  vertical-align: text-top;
 }
 
 .search {
@@ -44,16 +54,27 @@ div {
 
 .heading h1 {
   font-size: 7em;
+  color: #fff;
 }
 
 .heading h5 {
-  color: #1c2c4b;
+  color: #083451;
   font-weight: lighter;
+  font-size: 16px;
 }
 
 .blog {
   position: relative;
-  background-color: red;
+  width: 660px;
+}
+
+.blog h1 {
+  font-size: 5em;
+}
+
+blockquote {
+  color: #106DB3;
+  font-size: 30px;
 }
 
 .sidebar {
@@ -63,8 +84,23 @@ div {
 
 .footer {
   position: relative;
-  background-color: green;
-  background-size: cover;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+}
+
+.footer h1 {
+  font-size: 5em;
+  font-weight: lighter;
+  color: #083451;
+}
+
+.footer_rights {
+  position: relative;
+  width: 100%;
+  height: 60px;
+  background-color: #083451;
+  color: #e4e4e4;
 }
 
 a {
@@ -75,7 +111,7 @@ a {
 
 a:link, a:visited {
   text-decoration: none;
-  color: #1c2c4b;
+  color: #083451;
   font-weight: lighter;
 }
 
