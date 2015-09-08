@@ -11,6 +11,7 @@ div {
 p {
   font-weight: lighter;
   font-family: 'Merriweather', serif;
+  font-size: 18px;
 }
 
 .jumbotron {
@@ -36,6 +37,28 @@ p {
 .top_nav {
   position: relative;
   margin-top: 3px;
+}
+
+.top_nav a {
+  font-size: 18px;
+  font-weight: bold;
+  vertical-align: bottom;
+}
+
+.top_nav a:link, a:visited {
+  text-decoration: none;
+  color: #083451;
+  font-weight: lighter;
+}
+
+.top_nav a:hover {
+  text-decoration: none;
+  color: #131313;
+}
+
+.top_nav a:active {
+  text-decoration: none;
+  color: #c7c7c7;
 }
 
 .top_nav img {
@@ -104,25 +127,12 @@ blockquote {
 }
 
 a {
-  font-size: 18px;
-  font-weight: bold;
-  vertical-align: bottom;
+  color: #2085d7;
 }
 
 a:link, a:visited {
-  text-decoration: none;
-  color: #083451;
-  font-weight: lighter;
-}
-
-a:hover {
-  text-decoration: none;
-  color: #131313;
-}
-
-a:active {
-  text-decoration: none;
-  color: #c7c7c7;
+  text-decoration: underline;
+  color: #106DB3;
 }
 
 main {
